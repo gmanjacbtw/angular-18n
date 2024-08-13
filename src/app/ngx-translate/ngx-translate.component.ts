@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class NgxTranslateComponent {
   title = 'ngx-translate-demo';
+  today: Date = new Date();
 }

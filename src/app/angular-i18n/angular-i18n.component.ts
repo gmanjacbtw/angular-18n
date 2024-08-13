@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AngularI18nComponent {
   title = 'angular-i18n-demo';
+  today: Date = new Date();
 }

@@ -14,7 +14,7 @@
 
   <!-- Resources -->
   <h2>This is the homepage</h2>
-  <p>This is a website that supports multiple languages.</p>
+  <p class="mb-3">This is a website that supports multiple languages.</p>
 
   <img
     id="clouds"
@@ -23,8 +23,9 @@
   />
 
   <div class="container fields-container">
-    <!-- Span -->
-    <p><span>This is a span text.</span></p>
+    <p class="mb-1"><span>This is a span text.</span></p>
+    <p class="mb-1"><span>{{ today | date }}</span></p>
+    <p class="mb-3"><span>{{ 150 | currency }}</span></p>
 
     <!-- Form -->
     <form autocomplete="off">
