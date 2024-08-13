@@ -6,6 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./ngx-translate.component.scss']
 })
 export class NgxTranslateComponent {
-  
   title = 'ngx-translate-demo';
 }
