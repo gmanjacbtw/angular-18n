@@ -1,0 +1,78 @@
+<!-- Toolbar -->
+<app-toolbar></app-toolbar>
+
+<div class="content" role="main">
+  <div class="card highlight-card card-small mt-3">
+    <img id="rocket" src="assets/images/rocket.svg" alt="rocket icon" />
+    <span i18n>{{ title }} app is running!</span>
+    <img id="rocket-smoke" src="assets/images/rocket-smoke.svg" alt="rocket smoke icon" />
+  </div>
+
+  <!-- Resources -->
+  <h2 i18n>This is the homepage</h2>
+  <p class="mb-3" i18n>This is a website that supports multiple languages.</p>
+
+  <img
+    id="clouds"
+    src="assets/images/gray-clouds.svg"
+    alt="Gray Clouds Background"
+  />
+
+  <div class="container fields-container">
+    <!-- Span -->
+    <p class="mb-1" i18n><span>This is a span text.</span></p>
+    <p class="mb-1"><span>{{ today | date }}</span></p>
+    <p class="mb-3"><span>{{ 150 | currency }}</span></p>
+
+    <!-- Form -->
+    <form autocomplete="off">
+      <div class="form-group">
+        <label for="username" i18n>Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          class="form-control"
+          placeholder="Enter your username"
+          i18n-placeholder="Enter your username"
+          autocomplete="off"
+        />
+      </div>
+      <div class="form-group">
+        <label for="password" i18n>Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          class="form-control"
+          placeholder="Enter your password"
+          i18n-placeholder="Enter your password"
+          autocomplete="off"
+        />
+      </div>
+
+      <!-- Select -->
+      <div class="form-group">
+        <label for="gender" i18n>Select your gender</label>
+        <select id="gender" name="gender" class="form-control">
+          <option value="male" i18n>Male</option>
+          <option value="female" i18n>Female</option>
+          <option value="other" i18n>Other</option>
+          <option value="prefer_not_to_say" i18n>Prefer not to say</option>
+        </select>
+      </div>
+
+      <!-- Submit Button -->
+      <button type="button" class="btn btn-primary" i18n>Submit</button>
+    </form>
+
+    <!-- Unordered List -->
+    <ul class="list-group mt-4">
+      <li class="list-group-item" i18n>First Item</li>
+      <li class="list-group-item" i18n>Second Item</li>
+      <li class="list-group-item" i18n>Third Item</li>
+    </ul>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

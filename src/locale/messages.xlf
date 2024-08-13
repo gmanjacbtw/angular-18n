@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="702273782248450975" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="{{ title }}"/> app is running!</source>
+      </trans-unit>
+      <trans-unit id="1431416938026210429" datatype="html">
+        <source>Password</source>
+      </trans-unit>
+      <trans-unit id="2772023564304193657" datatype="html">
+        <source>Enter your password</source>
+        <note priority="1" from="description">Enter your password</note>
+      </trans-unit>
+      <trans-unit id="4030859564010046851" datatype="html">
+        <source>Second Item</source>
+      </trans-unit>
+      <trans-unit id="4327001039034401261" datatype="html">
+        <source>Enter your username</source>
+        <note priority="1" from="description">Enter your username</note>
+      </trans-unit>
+      <trans-unit id="4364893293210074729" datatype="html">
+        <source>Prefer not to say</source>
+      </trans-unit>
+      <trans-unit id="4932897356540100969" datatype="html">
+        <source>This is a website that supports multiple languages.</source>
+      </trans-unit>
+      <trans-unit id="5248717555542428023" datatype="html">
+        <source>Username</source>
+      </trans-unit>
+      <trans-unit id="5667840900782067941" datatype="html">
+        <source>Female</source>
+      </trans-unit>
+      <trans-unit id="5996194791317470452" datatype="html">
+        <source>First Item</source>
+      </trans-unit>
+      <trans-unit id="7268453169093367208" datatype="html">
+        <source><x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span&gt;"/>This is a span text.<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
+      </trans-unit>
+      <trans-unit id="734054731641091545" datatype="html">
+        <source>Select your gender</source>
+      </trans-unit>
+      <trans-unit id="7891472008190582270" datatype="html">
+        <source>Third Item</source>
+      </trans-unit>
+      <trans-unit id="8012344910054029733" datatype="html">
+        <source>Male</source>
+      </trans-unit>
+      <trans-unit id="8693603235657020323" datatype="html">
+        <source>Other</source>
+      </trans-unit>
+      <trans-unit id="8957544941657124700" datatype="html">
+        <source>This is the homepage</source>
+      </trans-unit>
+      <trans-unit id="935187492052582731" datatype="html">
+        <source>Submit</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
