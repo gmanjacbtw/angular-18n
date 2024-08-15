@@ -1,5 +1,5 @@
 {
-    "appIsRunning": "{{ title }} ¡la aplicación está funcionando!",
+    "appIsRunning": " ¡la aplicación está funcionando!",
     "password": "Contraseña",
     "enterYourPassword": "Introduce tu contraseña",
     "secondItem": "Segundo ítem",
