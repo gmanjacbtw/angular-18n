@@ -1,10 +1,10 @@
 <!-- Toolbar -->
-<app-toolbar></app-toolbar>
+<app-toolbar [showLangSelector]="true"></app-toolbar>
 
 <div class="content" role="main">
   <div class="card highlight-card card-small mt-3">
     <img id="rocket" src="assets/images/rocket.svg" alt="rocket icon" />
-    <span>{{ title }} app is running!</span>
+    <span>{{ title }} {{ "appIsRunning" | translate }}</span>
     <img
       id="rocket-smoke"
       src="assets/images/rocket-smoke.svg"
@@ -13,8 +13,8 @@
   </div>
 
   <!-- Resources -->
-  <h2>This is the homepage</h2>
-  <p class="mb-3">This is a website that supports multiple languages.</p>
+  <h2>{{ "homepage" | translate }}</h2>
+  <p class="mb-3">{{ "websiteSupportsMultipleLanguages" | translate }}</p>
 
   <img
     id="clouds"
@@ -23,55 +23,65 @@
   />
 
   <div class="container fields-container">
-    <p class="mb-1"><span>This is a span text.</span></p>
-    <p class="mb-1"><span>{{ today | date }}</span></p>
-    <p class="mb-3"><span>{{ 150 | currency }}</span></p>
+    <p class="mb-1">
+      <span>{{ "spanText" | translate }}</span>
+    </p>
+    <p class="mb-1">
+      <span>{{ today | date }}</span>
+    </p>
+    <p class="mb-3">
+      <span>{{ 150 | currency }}</span>
+    </p>
 
     <!-- Form -->
     <form autocomplete="off">
       <div class="form-group">
-        <label for="username">Username</label>
+        <label for="username">{{ "username" | translate }}</label>
         <input
           type="text"
           id="username"
           name="username"
           class="form-control"
-          placeholder="Enter your username"
+          placeholder="{{ 'enterYourUsername' | translate }}"
           autocomplete="off"
         />
       </div>
       <div class="form-group">
-        <label for="password">Password</label>
+        <label for="password">{{ "password" | translate }}</label>
         <input
           type="password"
           id="password"
           name="password"
           class="form-control"
-          placeholder="Enter your password"
+          placeholder="{{ 'enterYourPassword' | translate }}"
           autocomplete="off"
         />
       </div>
 
       <!-- Select -->
       <div class="form-group">
-        <label for="gender">Select your gender</label>
+        <label for="gender">{{ "selectYourGender" | translate }}</label>
         <select id="gender" name="gender" class="form-control">
-          <option value="male">Male</option>
-          <option value="female">Female</option>
-          <option value="other">Other</option>
-          <option value="prefer_not_to_say">Prefer not to say</option>
+          <option value="male">{{ "male" | translate }}</option>
+          <option value="female">{{ "female" | translate }}</option>
+          <option value="other">{{ "other" | translate }}</option>
+          <option value="prefer_not_to_say">
+            {{ "prefer_not_to_say" | translate }}
+          </option>
         </select>
       </div>
 
       <!-- Submit Button -->
-      <button type="button" class="btn btn-primary">Submit</button>
+      <button type="button" class="btn btn-primary">
+        {{ "submit" | translate }}
+      </button>
     </form>
 
     <!-- Unordered List -->
     <ul class="list-group mt-4">
-      <li class="list-group-item">First Item</li>
-      <li class="list-group-item">Second Item</li>
-      <li class="list-group-item">Third Item</li>
+      <li class="list-group-item">{{ "firstItem" | translate }}</li>
+      <li class="list-group-item">{{ "secondItem" | translate }}</li>
+      <li class="list-group-item">{{ "thirdItem" | translate }}</li>
     </ul>
   </div>
 </div>
