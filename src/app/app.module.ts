@@ -8,6 +8,9 @@ import { NgxTranslateComponent } from './ngx-translate/ngx-translate.component';
 import { ToolbarComponent } from './shared/toolbar/toolbar.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { CommonModule } from '@angular/common';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TranslateModule, TranslateLoader, TranslateService } from '@ngx-translate/core';
+import { HttpLoaderFactory } from './http-loader.factory';
 
 @NgModule({
   declarations: [
@@ -17,7 +20,20 @@ import { CommonModule } from '@angular/common';
     ToolbarComponent,
     NavbarComponent,
   ],
-  imports: [BrowserModule, AppRoutingModule, CommonModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    CommonModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      defaultLanguage: 'en',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient],
+      },
+    }),
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })
