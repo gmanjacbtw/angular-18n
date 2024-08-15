@@ -1,0 +1,19 @@
+{
+  "appIsRunning": " l'application est en cours d'exécution!",
+  "password": "Mot de passe",
+  "enterYourPassword": "Entrez votre mot de passe",
+  "secondItem": "Deuxième élément",
+  "enterYourUsername": "Entrez votre nom d'utilisateur",
+  "preferNotToSay": "Je préfère ne pas le dire",
+  "websiteSupportsMultipleLanguages": "Ceci est un site Web qui prend en charge plusieurs langues.",
+  "username": "Nom d'utilisateur",
+  "female": "Femme",
+  "firstItem": "Premier élément",
+  "spanText": "Ceci est un texte dans un span.",
+  "selectYourGender": "Sélectionnez votre genre",
+  "thirdItem": "Troisième élément",
+  "male": "Homme",
+  "other": "Autre",
+  "homepage": "Ceci est la page d'accueil",
+  "submit": "Soumettre"
+}

@@ -1,0 +1,19 @@
+{
+  "appIsRunning": " app is running!",
+  "password": "Password",
+  "enterYourPassword": "Enter your password",
+  "secondItem": "Second Item",
+  "enterYourUsername": "Enter your username",
+  "preferNotToSay": "Prefer not to say",
+  "websiteSupportsMultipleLanguages": "This is a website that supports multiple languages.",
+  "username": "Username",
+  "female": "Female",
+  "firstItem": "First Item",
+  "spanText": "This is a span text.",
+  "selectYourGender": "Select your gender",
+  "thirdItem": "Third Item",
+  "male": "Male",
+  "other": "Other",
+  "homepage": "This is the homepage",
+  "submit": "Submit"
+}

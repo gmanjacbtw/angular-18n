@@ -1,0 +1,20 @@
+{
+    "appIsRunning": "{{ title }} ¡la aplicación está funcionando!",
+    "password": "Contraseña",
+    "enterYourPassword": "Introduce tu contraseña",
+    "secondItem": "Segundo ítem",
+    "enterYourUsername": "Introduce tu nombre de usuario",
+    "preferNotToSay": "Prefiero no decirlo",
+    "websiteSupportsMultipleLanguages": "Este es un sitio web que soporta múltiples idiomas.",
+    "username": "Nombre de usuario",
+    "female": "Femenino",
+    "firstItem": "Primer ítem",
+    "spanText": "Este es un texto en span.",
+    "selectYourGender": "Selecciona tu género",
+    "thirdItem": "Tercer ítem",
+    "male": "Masculino",
+    "other": "Otro",
+    "homepage": "Esta es la página de inicio",
+    "submit": "Enviar"
+  }
+  
